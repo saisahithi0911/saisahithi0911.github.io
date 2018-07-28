@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<input id="numb" type ="text"><br>
+<input id="numb1" type ="password"><br>
+<button type="button" onclick="myFunction()">Submit</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var x, text;
+
+    // Get the value of the input field with id="numb"
+    
+x = document.getElementById("numb").value;
+y = document.getElementById("numb1").value;
+
+    // If x is Not a Number or less than one or greater than 10
+    if (x == "admin" && y== "password") {
+         alert("Input valid");
+    } else {
+        alert("Input not valid");
+    }
+  
+}
+</script>
+
+</body>
+</html> 
